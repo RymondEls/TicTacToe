@@ -163,7 +163,7 @@
 		else return false;
 	}
 	void TicTacToe::WinAnnounce() const {
-		if (!player)
+		if (!this->player)
 			cout << "Player 1 won!";
 		else cout << "Player 2 won!";
 		return;
